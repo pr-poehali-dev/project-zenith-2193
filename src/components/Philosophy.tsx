@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Качество в деталях",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Мы не строим «под ключ» — мы строим на совесть. Каждый узел, каждый шов, каждый материал проходит контроль качества на всех этапах.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Прозрачность и честность",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Чёткая смета без скрытых доплат, реальные сроки и постоянная связь с прорабом. Вы всегда знаете, что происходит на вашем объекте.",
   },
   {
-    title: "Естественная динамика",
+    title: "Полный цикл работ",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "От фундамента до чистовой отделки — всё под одной крышей. Не нужно искать отдельных подрядчиков: фасад, кровля, коммуникации, интерьер.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Аккредитованный застройщик",
+    description: "Официальная аккредитация, все необходимые лицензии и допуски. Работаем в строгом соответствии с нормами и стандартами.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наш подход</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Строим с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>душой</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Строительство — это не просто конструкция. Это ваш дом, в котором вы проживёте десятки лет. Мы строим так, как будто это наш собственный дом.
             </p>
 
             {philosophyItems.map((item, index) => (
